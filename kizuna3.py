@@ -10,7 +10,7 @@ from time import sleep
 
 #load_dotenv()
 
-TOKEN = 'OTExMDc4ODQzMzcxMTI2ODM2.GBFIoe.Jbu-FyYewZWoOaeO94FtBBfR4df7eMhtqYySu0'
+TOKEN = ''
 
 #client = commands.Bot(command_prefix='!')
 dc = discord.Client()
