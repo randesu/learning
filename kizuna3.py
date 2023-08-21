@@ -52,11 +52,11 @@ async def gf(ctx):# *, message
     tilepng1=(doll.shorttile.to_string()[3:])
 
 
-    embed = discord.Embed(title=doll.name.to_string()[2:], description="".join(intro1),color=0xffff4d)
+    embed = discord.Embed(title=doll.name.to_string()[2:], description="".join(intro1), color=0xffff4d)
     embed.set_thumbnail(url="".join(tilepng1))
-    embed.add_field(name="Combat Data: ",value="".join(data1), inline=False)
-    embed.add_field(name="Tiles buff", value="".join(tilebuff),inline=False)
-    embed.add_field(name=doll.skillname.to_string()[2:], value="".join(doll.skillbuff),inline=False)
+    embed.add_field(name="Combat Data: ", value="".join(data1), inline=False)
+    embed.add_field(name="Tiles buff", value="".join(tilebuff), inline=False)
+    embed.add_field(name=doll.skillname.to_string()[2:], value="".join(doll.skillbuff), inline=False)
     print(doll.tilepng)
     embed.set_image(url=doll.image.to_string()[2:])
 
